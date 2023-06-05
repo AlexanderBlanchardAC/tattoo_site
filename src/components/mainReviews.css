@@ -1,0 +1,58 @@
+.mainReviewsContainer {
+    width: 100%;
+    height: fit-content;
+    min-height: 300px;
+    padding: 1em;
+    font-family: 'Courier Prime';
+}
+
+.reviewsTitle {
+    font-family: 'Courier Prime';
+    padding: 1rem;
+    font-size: 1.8rem;
+}
+
+.mainReviewsContent {
+    padding: 1em;
+    border: 2px solid black;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.reviewerName {
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.reviewText {
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 0.5em;
+}
+
+.singleReview {
+    border: 2px solid black;
+    padding: 1em;
+    margin-bottom: 1em;
+    background-color: white;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+    border-radius: 7px;
+
+}
+
+.reviewerTattooist {
+    font-weight: 700;
+    text-align: center;
+}

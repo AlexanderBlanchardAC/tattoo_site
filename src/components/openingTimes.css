@@ -1,0 +1,102 @@
+.openingTimesContainer {
+    width:100%;
+    min-height: 750px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.openingTimesContent {
+    padding: 1em;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.openingTimesTitle {
+    font-size: 1.5rem;
+    
+}
+
+.openingTimesSubtitle {
+    font-family: 'Courier Prime';
+    font-size: 1rem;
+    padding: 0.5em;
+    padding-bottom: 1.5em;
+    font-weight: 400;
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    min-width: 250px;
+}
+
+
+
+.openingDays {
+    /* border: 1px solid black; */
+    /* border-right: 3px solid black; */
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    max-width: 600px;
+    min-width: 250px;
+    height: 60px;
+    color: white;
+    background-color: black;
+    position: relative;
+    border-radius: 7px;
+    margin-bottom: 0.25em;
+
+}
+
+.day,
+.times {
+    /* border-right: 2px solid black; */
+    /* border: 2px solid black; */
+    height: 100%;    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.5rem;
+    margin: 0;
+
+}
+
+.day {
+    width: 30%;
+    min-width: 130px;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: left;
+    /* border-left: 4px solid black; */
+}
+
+
+
+.times {
+    width: 70%;
+    font-size: 0.8rem;
+    text-align: left;
+    /* border-right: 2px solid black; */
+
+}
+
+@media screen and (max-width: 488) {
+    .times,
+    .day {
+        min-width: none;
+        padding:0.6rem;
+        font-size: 0.6rem;
+    } 
+}
+
+@media screen and (max-width:404) {
+    .times {
+        font-size: 0.4rem;
+    }
+}
+

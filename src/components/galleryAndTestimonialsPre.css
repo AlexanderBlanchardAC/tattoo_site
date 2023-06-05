@@ -1,0 +1,117 @@
+.galleryContainer {
+    min-height: 200px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.myWorkTitle, 
+.myWorkText, 
+.testimonialTitle {
+    font-family: 'Courier Prime';
+}
+
+.testimonialTitle {
+    color: white;
+}
+
+
+
+.myWorkText {
+    font-weight: 400;
+    width: 90%;
+    text-align: left;
+}
+
+.imagesPreview {
+    width: 90%;
+    min-height: 150px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0;
+}
+.tattooImages {
+    display: flex;
+    width: 100%;
+    margin-bottom: 1em;
+    justify-content: space-evenly;
+}
+
+.galleryPreviewImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 7px;
+    border: 4px solid black;
+}
+
+.goToGalleryBtn,
+.goToTestimonialsBtn  {
+    padding: 0.5em;
+    font-family: 'Courier Prime';
+    font-size: 1rem;
+    font-weight: 700;
+    outline: none;
+    border-radius: 7px;
+    border: 2px solid black;
+    width: 25%;
+    min-width: fit-content;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.goToTestimonialsBtn {
+    align-self: center;
+}
+
+.goToGalleryBtn:hover,
+.goToTestimonialsBtn:hover {
+    background-color: black;
+    color: white;
+}
+
+/* .goToTestimonialsBtn {
+    font-size: 1rem;
+}  */
+
+.testimonialsPreview {
+    border: 2px solid black;
+    min-height: 200px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: black;
+    border-radius: 7px;
+
+}
+
+.testimonialClips {
+    /* margin: 1em; */
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 7px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    z-index: 999;
+}
+
+
+
+.testimonialAuthor {
+    font-weight: 700;
+}

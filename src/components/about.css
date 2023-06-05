@@ -1,0 +1,89 @@
+.aboutContainer {
+    width: 100%;
+    min-height: 200px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Courier Prime';
+}
+
+.aboutMeInfo {
+    width: 90%;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    align-items: center;
+    font-weight: 400;
+    font-family: 'Courier Prime';
+    position: relative;
+    padding: 1em;
+
+}
+
+h1, h3 {
+    margin-bottom: 0.5em; 
+    font-weight: 700;
+    font-family: 'Courier Prime';
+
+}
+
+p {
+    margin-bottom: 1em;
+    font-size: 1.2em;
+    font-family: 'Courier Prime';
+
+}
+
+.readMoreBtn,
+.closeMoreAboutMe {
+    width: 25%;
+    min-width: fit-content;
+    height: 40px;
+    padding: 0.5em;
+    font-family: 'Courier Prime';
+    font-weight: 700;
+    font-size: 1.2rem;
+    outline: none;
+    border-radius: 7px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.closeMoreAboutMe {
+    border: 2px solid white;
+}
+
+.moreAboutMe {
+    /* margin-top: 1em; */
+    position: absolute;
+    border: 2px solid purple;
+    background-color: black;
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+
+.moreAboutMeTextContainer {
+    width: 90%;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    text-align: left;
+    color: white;
+    margin-bottom: 1em;
+    overflow-y: scroll;
+}
+
+.moreAboutMeText {
+    font-family: 'Courier Prime';
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
