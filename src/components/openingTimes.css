@@ -1,7 +1,6 @@
 .openingTimesContainer {
     width:100%;
-    min-height: 750px;
-    padding: 1em;
+    padding: 4em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,23 +9,23 @@
 
 .openingTimesContent {
     padding: 1em;
-    min-height: 300px;
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 100vh;
     align-items: center;
 }
 
 .openingTimesTitle {
     font-size: 1.5rem;
-    
+    margin-bottom: 0.5em;
 }
 
 .openingTimesSubtitle {
     font-family: 'Courier Prime';
     font-size: 1rem;
     padding: 0.5em;
-    padding-bottom: 1.5em;
+    margin-bottom: 3em;
     font-weight: 400;
     text-align: center;
     width: 90%;

@@ -8,6 +8,7 @@
 
 .contactContent {
     width: 90%;
+    height: 100vh;
     padding: 1em;
     display: flex;
     flex-direction: column;

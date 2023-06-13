@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './about.css';
 import { aboutData } from '../data';
 import { useNavigate } from 'react-router-dom';
 
 const About = () => {
-    const { name, title, subtitle, preview, btnText, nextBtn, backBtn, moreAboutMe } = aboutData;
+    const { name, title, subtitle, preview, btnText } = aboutData;
     
     const navigate = useNavigate();
 

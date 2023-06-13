@@ -24,7 +24,7 @@ const MainGallery = () => {
                     
                     {showMoreInfo ? (
                         <div className='showMoreInfo'>
-                            <img className="moreInfoPic" src={modalData.modalPic != undefined || null ? modalData.modalPic : modalData.image} alt="tattoo" />
+                            <img className="moreInfoPic" src={modalData.modalPic !== undefined || null ? modalData.modalPic : modalData.image} alt="tattoo" />
                             <p className='modalText'>{modalData.modalText}</p>
                 
                             <button className="closeMoreInfo" onClick={() => setShowMoreInfo(false)}>Close</button>

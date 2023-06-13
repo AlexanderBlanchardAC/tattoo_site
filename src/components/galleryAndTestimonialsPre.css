@@ -21,8 +21,6 @@ h3 {
     color: white;
 }
 
-
-
 .myWorkText {
     font-weight: 400;
     width: 90%;
@@ -114,4 +112,18 @@ h3 {
 
 .testimonialAuthor {
     font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+    .tattooImages {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .galleryPreviewImage {
+        width: 200px;
+        height: 200px;
+        margin: 1em 0;
+    }
 }

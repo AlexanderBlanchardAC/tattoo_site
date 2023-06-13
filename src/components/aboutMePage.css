@@ -1,7 +1,5 @@
 .moreAboutMeContainer {
     width: 100%;
-    min-height: 300px;
-    border: 2px solid green;
     padding: 1em;
     display: flex;
     justify-content: center;
@@ -14,13 +12,16 @@
     padding: 1em;
     display: flex;
     flex-direction: column;
-    width: 90%;
-    z-index: 999;
+    width: 60%;
+    height: 100vh;
+    z-index: 9;
 }
 
 .moreAboutMeTitle {
     font-size: 1.8rem;
     font-family: 'Courier Prime';
+    margin-bottom: 2em;
+    margin-top: 1em;
     
 }
 
